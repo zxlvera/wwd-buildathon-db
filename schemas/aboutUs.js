@@ -1,7 +1,7 @@
 import { MdComment as icon } from 'react-icons/md'
 
 export default {
-  name: 'about',
+  name: 'aboutUs',
   title: 'About Pages',
   icon,
   type: 'document',
@@ -12,9 +12,14 @@ export default {
       type: 'string',
     },
     {
+      name: 'highlight',
+      title: 'Highlight',
+      type: 'string',
+    },
+    {
       name: 'description',
       title: 'Description',
-      type: 'text',
+      type: 'blockContent',
     },
     {
       title: 'Tags',

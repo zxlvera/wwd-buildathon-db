@@ -1,13 +1,12 @@
 // First, we must import the schema creator
 // Then import schema types from any plugins that might expose them
-import about from './about'
+import aboutUs from './aboutUs'
 import aboutBuildathon from './aboutBuildathon'
 import blockContent from './blockContent'
 import coreMember from './coreMember'
 import createSchema from 'part:@sanity/base/schema-creator'
 import gallery from './gallery'
 import otherNews from './otherNews'
-import partnerWithUs from './partnerWithUs'
 import pastEvents from './pastEvents'
 import perks from './perks'
 import schedule from './schedule'
@@ -33,9 +32,8 @@ export default createSchema({
     ticket,
     coreMember,
     pastEvents,
-    about,
+    aboutUs,
     aboutBuildathon,
-    partnerWithUs,
     otherNews,
     sponsorTier,
     sponsorPerks,
