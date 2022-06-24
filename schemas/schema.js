@@ -5,6 +5,7 @@ import aboutBuildathon from './aboutBuildathon'
 import blockContent from './blockContent'
 import coreMember from './coreMember'
 import createSchema from 'part:@sanity/base/schema-creator'
+import faq from './faq'
 import gallery from './gallery'
 import otherNews from './otherNews'
 import pastEvents from './pastEvents'
@@ -37,6 +38,7 @@ export default createSchema({
     otherNews,
     sponsorTier,
     sponsorPerks,
+    faq,
     
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas

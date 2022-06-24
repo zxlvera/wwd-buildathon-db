@@ -7,7 +7,7 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'title',
+      name: 'perk',
       title: 'Perks',
       type: 'string',
     },
@@ -34,8 +34,15 @@ export default {
   ],
   preview: {
     select: {
-      title: 'title',
-      subtitle: 'description'
+      title: 'perk',
+      sponsorTier: 'sponsorTier'
+    }, prepare(selection) {
+      const { title, sponsorTier } = selection
+      const sponsorTierList = JSON.stringify(sponsorTier);
+      return {
+        title: title,
+        subtitle: sponsorTierList
+      }
     }
   }
 }

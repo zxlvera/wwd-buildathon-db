@@ -34,7 +34,13 @@ export default {
   preview: {
     select: {
       title: 'title',
-      subtitle: 'description',
+      tags: 'tags'
+    }, prepare(selection) {
+      const { title, tags } = selection
+      return {
+        title: title,
+        subtitle: tags[0]
+      }
     }
   }
 }
