@@ -46,6 +46,12 @@ export default {
         },
       ],
     },
+    {
+      name: 'order',
+      title: 'Order',
+      type: 'number',
+      description: 'Name it 1,2,3,4'
+    },
   ],
   preview: {
     select: {
