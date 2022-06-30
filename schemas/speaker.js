@@ -52,6 +52,12 @@ export default {
         },
       ]
     },
+    {
+      name: 'speakerCategory',
+      title: 'Category',
+      type: 'reference',
+      to: [{ type: 'speakerCategory' }],
+    },
   ],
   preview: {
     select: { title: 'name', media: 'image' },

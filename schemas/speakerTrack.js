@@ -23,23 +23,21 @@ export default {
       to: [{ type: 'speaker' }],
     },
     {
-      title: 'Tags',
-      name: 'tags',
-      type: 'array',
-      of: [{ type: 'string' }],
-      options: {
-        layout: 'tags'
-      }
-    }
+      name: 'speakerCategory',
+      title: 'Category',
+      type: 'reference',
+      to: [{ type: 'speakerCategory' }],
+    },
   ],
   preview: {
     select: {
       title: 'title',
+      category: 'speakerCategory.category',
       speaker: 'speaker.name'
     }, prepare(selection) {
-      const { title, speaker } = selection
+      const { title, category, speaker } = selection
       return {
-        title: title,
+        title: `${category} - ${title}`,
         subtitle: speaker
       }
     }

@@ -14,6 +14,7 @@ import perks from './perks'
 import schedule from './schedule'
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 import speaker from './speaker'
+import speakerCategory from './speakerCategory'
 import speakerTrack from './speakerTrack'
 import sponsorPerks from './sponsorPerks'
 import sponsorTier from './sponsorTier'
@@ -31,6 +32,7 @@ export default createSchema({
     schedule,
     speakerTrack,
     speaker,
+    speakerCategory,
     ticket,
     coreMember,
     pastEvents,
