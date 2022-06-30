@@ -22,6 +22,15 @@ export default {
       type: 'reference',
       to: [{ type: 'speaker' }],
     },
+    {
+      title: 'Tags',
+      name: 'tags',
+      type: 'array',
+      of: [{ type: 'string' }],
+      options: {
+        layout: 'tags'
+      }
+    }
   ],
   preview: {
     select: {

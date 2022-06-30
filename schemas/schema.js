@@ -3,6 +3,7 @@
 import aboutUs from './aboutUs'
 import aboutBuildathon from './aboutBuildathon'
 import blockContent from './blockContent'
+import buildathonPeriod from './buildathonPeriod'
 import coreMember from './coreMember'
 import createSchema from 'part:@sanity/base/schema-creator'
 import faq from './faq'
@@ -39,6 +40,7 @@ export default createSchema({
     sponsorTier,
     sponsorPerks,
     faq,
+    buildathonPeriod,
     
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
