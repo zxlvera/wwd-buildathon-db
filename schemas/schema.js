@@ -19,6 +19,7 @@ import speakerTrack from './speakerTrack'
 import sponsorPerks from './sponsorPerks'
 import sponsorTier from './sponsorTier'
 import ticket from './ticket'
+import partnership from './partnership'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -39,6 +40,7 @@ export default createSchema({
     aboutUs,
     aboutBuildathon,
     otherNews,
+    partnership,
     sponsorTier,
     sponsorPerks,
     faq,
