@@ -10,7 +10,6 @@ export default {
       name: 'name',
       title: 'Name',
       type: 'string',
-      description: 'Please use "Firstname Lastname" format',
     },
     {
       name: 'image',
@@ -57,6 +56,15 @@ export default {
       title: 'Category',
       type: 'reference',
       to: [{ type: 'speakerCategory' }],
+      description: 'Please create speaker categories in Speakers Category',
+      options: {
+        disableNew: true
+      },
+      validation: Rule => Rule.required(),
+      initialValue: {
+          _ref: "969c1d42-dcf0-4849-a472-a2964ff1bfbc",
+          _type: "reference"
+      }
     },
   ],
   preview: {
