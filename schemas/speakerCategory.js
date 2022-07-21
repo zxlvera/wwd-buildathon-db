@@ -15,6 +15,7 @@ export default {
       name: 'paid',
       title: 'Paid',
       type: 'boolean',
+      initialValue: false
     }
   ],
   preview: {
