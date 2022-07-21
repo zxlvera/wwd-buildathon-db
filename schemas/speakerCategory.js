@@ -10,6 +10,11 @@ export default {
       name: 'category',
       title: 'Category',
       type: 'string',
+    },
+    {
+      name: 'paid',
+      title: 'Paid',
+      type: 'boolean',
     }
   ],
   preview: {

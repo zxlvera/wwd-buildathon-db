@@ -19,6 +19,11 @@ export default {
         hotspot: true,
       },
     },
+    {
+      name: 'paid',
+      title: 'Paid',
+      type: 'boolean',
+    },
   ],
   preview: {
     select: { title: 'name', media: 'image' },
