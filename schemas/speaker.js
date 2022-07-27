@@ -25,11 +25,6 @@ export default {
       type: 'string',
     },
     {
-      name: 'description',
-      title: 'Description',
-      type: 'text',
-    },
-    {
       name: 'descriptions',
       title: 'Description',
       type: 'blockContent',
