@@ -30,6 +30,11 @@ export default {
       type: 'text',
     },
     {
+      name: 'descriptions',
+      title: 'Description',
+      type: 'blockContent',
+    },
+    {
       name: 'socials',
       title: 'Socials',
       type: 'object',
