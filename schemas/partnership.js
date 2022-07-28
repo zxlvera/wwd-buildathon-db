@@ -25,6 +25,12 @@ export default {
       title: 'Paid',
       type: 'boolean',
     },
+    {
+      name: 'scale',
+      title: 'scale',
+      type: 'boolean',
+      description: 'Logo too wide'
+    },
   ],
   preview: {
     select: { title: 'name', media: 'image' },
