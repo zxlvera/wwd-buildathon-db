@@ -27,9 +27,14 @@ export default {
     },
     {
       name: 'scale',
-      title: 'scale',
+      title: 'Scale',
       type: 'boolean',
-      description: 'Logo too wide'
+      description: 'Logo too wide, give a value below'
+    },
+    {
+      name: 'width',
+      title: 'width',
+      type: 'number',
     },
   ],
   preview: {
