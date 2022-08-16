@@ -12,6 +12,18 @@ export default {
       type: 'string',
     },
     {
+      name: 'dateTime',
+      title: 'Date Time',
+      type: 'datetime',
+      description: 'Time shown is in UTC/GMT+0',
+      options: {
+        dateFormat: 'YYYY-MM-DD',
+        timeFormat: 'HH:mm',
+        timeStep: 15,
+        calendarTodayLabel: 'Today'
+      },
+    },
+    {
       name: 'description',
       title: 'Description',
       type: 'text',

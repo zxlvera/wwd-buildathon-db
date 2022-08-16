@@ -30,6 +30,18 @@ export default {
       type: 'blockContent',
     },
     {
+      name: 'dateTime',
+      title: 'Date Time',
+      type: 'datetime',
+      description: 'Time shown is in UTC',
+      options: {
+        dateFormat: 'YYYY-MM-DD',
+        timeFormat: 'HH:mm',
+        timeStep: 15,
+        calendarTodayLabel: 'Today'
+      },
+    },
+    {
       name: 'socials',
       title: 'Socials',
       type: 'object',
