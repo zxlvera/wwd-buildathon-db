@@ -15,9 +15,9 @@ export default {
       name: 'dateTime',
       title: 'Date Time',
       type: 'datetime',
-      description: 'Time shown is in UTC/GMT+0',
+      description: 'Time shown is in your timezone',
       options: {
-        dateFormat: 'YYYY-MM-DD',
+        dateFormat: 'YYYY-MM-DD', 
         timeFormat: 'HH:mm',
         timeStep: 15,
         calendarTodayLabel: 'Today'
